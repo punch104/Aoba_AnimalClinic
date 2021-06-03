@@ -1,0 +1,977 @@
+body {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  font-family: "MS Pゴシック";
+  background-image: url(./html\ img/large.jpg);
+  background-blend-mode:lighten;
+}
+
+.body-wrapper {
+  max-width: 1060px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  position: relative;
+  color: #158b2b;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 150px;
+  height: 58px;
+  border-radius: 50%;
+  border: 5px solid #a6ddb0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  background: #afdc8f;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* ヘッダー */
+
+header {
+  border: double;
+  border-width: 2px;
+  color: rgb(155, 209, 128);
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+.logo a {
+  width: 320px;
+  height: 80px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(51, 171, 49);
+  border: solid 3px rgb(155, 209, 128);
+  margin: 10px;
+  background-color: rgb(231, 245, 234);
+}
+
+.logo {
+  display: flex;
+}
+
+/* アクセス */
+
+.tel-box {
+  max-width: 400px;
+  margin: 15px;
+  color: rgb(147, 147, 147);
+}
+ 
+.tel {
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.tel img {
+  height: 30px;
+  width: auto;
+  padding: 5px;
+}
+
+.tel-box p {
+  line-height: 0;
+}
+
+.num {
+  font-size: 20px;
+}
+
+.ad {
+  font-size: 18px;
+}
+
+/* open */
+
+.open {
+  margin: 12px;
+}
+
+.open p{
+ font-size: 13px;
+ font-weight: bolder;
+ margin: 0.3em;
+}
+
+/* カテゴリー */
+
+.category {
+  padding: 0.2em 0.5em;
+  margin: 2em 0;
+  color: #565656;
+  background: #e4f1da;
+  box-shadow: 0px 0px 0px 10px  #e4f1da;
+  border: dashed 2px #84e968;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+}
+
+.category a{
+  text-decoration: none;
+  color: #696969;
+}
+
+.types {
+  width: 25%;
+  font-size: 20px;
+  padding: 5px;
+  border-right: dashed 2px #b0ee9f;
+}
+
+.types:hover {
+  opacity: 0.6;
+}
+
+#none {
+  border-right: none;
+}
+
+/* スライド */
+
+.swiper-slide img{
+  width: 500px;
+  margin-top: 10px;
+}
+
+.swiper {
+  color:rgb(84, 84, 84);
+}
+
+.swiper-container {
+  width: 800px;
+}
+
+/* かれんだー  */
+
+#time-wrapper {
+  margin:0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.days th {
+  color: rgb(128, 128, 128);
+}
+
+.days , tr td {
+  border: solid 1px rgb(155, 209, 128);
+}
+
+.days {
+  margin: 20px;
+  font-size: 0.7em;
+}
+
+.month {
+  background-color: rgb(206, 243, 187);
+}
+
+.sat {
+  color: rgb(106, 160, 252);
+}
+
+.sun {
+  color: rgb(241, 131, 131);
+}
+
+.col-1 {
+  color: #f8d0c9;
+}
+
+.col-2 {
+  color: #e4f1da;
+}
+
+.Thurs {
+  background-color: #f8d0c9;
+}
+
+.suns {
+  background-color: #e4f1da;
+}
+
+/* 診療時間 */
+
+.tbl {
+  color:rgb(128, 128, 128);
+  font-weight: bold;
+  border: solid 1px rgb(155, 209, 128);
+  margin: 20px;
+  height: 200px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.box {
+  background-color: rgb(209, 243, 192);
+}
+
+.sat {
+  color: rgb(106, 160, 252);
+}
+
+.sun {
+  color: rgb(241, 131, 131);
+}
+
+td {
+  width: 30px;
+}
+
+.etc {
+  width: 450px;
+  height: auto;
+  margin:0 auto;
+  text-align: center;
+}
+
+.text {
+  color: #878787;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+
+/* お知らせ */
+
+#news .news-box{
+  width: 800px;
+  height: 200px;
+  margin:40px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#news .p-box {
+  display: flex;
+  margin:0 auto;
+  text-align: left;
+}
+
+#news .texts {
+  width: 450px;
+  text-align: left;
+  color: #696969;
+  font-size: 0.9em;
+}
+
+#news .news-box p {
+  margin: 30px;
+}
+
+/* アクセス */
+
+.map-wrap {
+  margin:0 auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.map {
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.map iframe{
+  width: 100%;
+  height: 550px;
+  margin-top: -150px;
+}
+
+.texts a {
+  text-decoration: none;
+  text-align: left;
+  color: #696969;
+  font-size: 0.9em;
+}
+
+.access-box {
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+
+.bus {
+  color: #7bd2dc;
+}
+
+.train {
+  color: #6ab057;
+}
+
+.underbar {
+  border-bottom: solid 1px #878787;
+}
+
+.a-box a {
+  margin: 20px;
+}
+
+.a-box :hover {
+  opacity: 0.7;
+}
+
+/* トリミング */
+
+#trimng h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#trimng .wrapper {
+  color: #696969
+}
+
+#triming .plan-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 960px;
+}  
+
+#triming .plan {
+  width:20%;
+  height: auto;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+.plan img {
+  height: 150px;
+  padding: 20px;
+}
+
+#triming .plan ul {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+#triming .plan li {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#triming p {
+  margin:0;
+}
+
+.insta img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.insta :hover{
+  opacity: 0.7;
+}
+
+.triming-box {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+/* フッター */
+
+footer {
+  background-color: rgb(189, 188, 188);
+  color: white;
+  height: 110px;
+  padding: initial;
+  margin:0 auto;
+  width: 1100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+}
+
+footer li :hover {
+  color: #e1eede;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+footer li {
+  margin: 10px;
+  width: 20%;
+}
+
+footer p {
+  margin-top: 30px;
+  font-weight: bolder;
+} body {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  font-family: "MS Pゴシック";
+  background-image: url(./html\ img/large.jpg);
+  background-blend-mode:lighten;
+}
+
+.body-wrapper {
+  max-width: 1060px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  position: relative;
+  color: #158b2b;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 150px;
+  height: 58px;
+  border-radius: 50%;
+  border: 5px solid #a6ddb0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  background: #afdc8f;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* ヘッダー */
+
+header {
+  border: double;
+  border-width: 2px;
+  color: rgb(155, 209, 128);
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+.logo a {
+  width: 320px;
+  height: 80px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(51, 171, 49);
+  border: solid 3px rgb(155, 209, 128);
+  margin: 10px;
+  background-color: rgb(231, 245, 234);
+}
+
+.logo {
+  display: flex;
+}
+
+/* アクセス */
+
+.tel-box {
+  max-width: 400px;
+  margin: 15px;
+  color: rgb(147, 147, 147);
+}
+ 
+.tel {
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.tel img {
+  height: 30px;
+  width: auto;
+  padding: 5px;
+}
+
+.tel-box p {
+  line-height: 0;
+}
+
+.num {
+  font-size: 20px;
+}
+
+.ad {
+  font-size: 18px;
+}
+
+/* open */
+
+.open {
+  margin: 12px;
+}
+
+.open p{
+ font-size: 13px;
+ font-weight: bolder;
+ margin: 0.3em;
+}
+
+/* カテゴリー */
+
+.category {
+  padding: 0.2em 0.5em;
+  margin: 2em 0;
+  color: #565656;
+  background: #e4f1da;
+  box-shadow: 0px 0px 0px 10px  #e4f1da;
+  border: dashed 2px #84e968;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+}
+
+.category a{
+  text-decoration: none;
+  color: #696969;
+}
+
+.types {
+  width: 25%;
+  font-size: 20px;
+  padding: 5px;
+  border-right: dashed 2px #b0ee9f;
+}
+
+.types:hover {
+  opacity: 0.6;
+}
+
+#none {
+  border-right: none;
+}
+
+/* スライド */
+
+.swiper-slide img{
+  width: 500px;
+  margin-top: 10px;
+}
+
+.swiper {
+  color:rgb(84, 84, 84);
+}
+
+.swiper-container {
+  width: 800px;
+}
+
+/* かれんだー  */
+
+#time-wrapper {
+  margin:0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.days th {
+  color: rgb(128, 128, 128);
+}
+
+.days , tr td {
+  border: solid 1px rgb(155, 209, 128);
+}
+
+.days {
+  margin: 20px;
+  font-size: 0.7em;
+}
+
+.month {
+  background-color: rgb(206, 243, 187);
+}
+
+.sat {
+  color: rgb(106, 160, 252);
+}
+
+.sun {
+  color: rgb(241, 131, 131);
+}
+
+.col-1 {
+  color: #f8d0c9;
+}
+
+.col-2 {
+  color: #e4f1da;
+}
+
+.Thurs {
+  background-color: #f8d0c9;
+}
+
+.suns {
+  background-color: #e4f1da;
+}
+
+/* 診療時間 */
+
+.tbl {
+  color:rgb(128, 128, 128);
+  font-weight: bold;
+  border: solid 1px rgb(155, 209, 128);
+  margin: 20px;
+  height: 200px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.box {
+  background-color: rgb(209, 243, 192);
+}
+
+.sat {
+  color: rgb(106, 160, 252);
+}
+
+.sun {
+  color: rgb(241, 131, 131);
+}
+
+td {
+  width: 30px;
+}
+
+.etc {
+  width: 450px;
+  height: auto;
+  margin:0 auto;
+  text-align: center;
+}
+
+.text {
+  color: #878787;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+
+/* お知らせ */
+
+#news .news-box{
+  width: 800px;
+  height: 200px;
+  margin:40px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#news .p-box {
+  display: flex;
+  margin:0 auto;
+  text-align: left;
+}
+
+#news .texts {
+  width: 450px;
+  text-align: left;
+  color: #696969;
+  font-size: 0.9em;
+}
+
+#news .news-box p {
+  margin: 30px;
+}
+
+/* アクセス */
+
+.map-wrap {
+  margin:0 auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.map {
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.map iframe{
+  width: 100%;
+  height: 550px;
+  margin-top: -150px;
+}
+
+.texts a {
+  text-decoration: none;
+  text-align: left;
+  color: #696969;
+  font-size: 0.9em;
+}
+
+.access-box {
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+
+.bus {
+  color: #7bd2dc;
+}
+
+.train {
+  color: #6ab057;
+}
+
+.underbar {
+  border-bottom: solid 1px #878787;
+}
+
+.a-box a {
+  margin: 20px;
+}
+
+.a-box :hover {
+  opacity: 0.7;
+}
+
+/* トリミング */
+
+#trimng h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#trimng .wrapper {
+  color: #696969
+}
+
+#triming .plan-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 960px;
+}  
+
+#triming .plan {
+  width:20%;
+  height: auto;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+.plan img {
+  height: 150px;
+  padding: 20px;
+}
+
+#triming .plan ul {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+#triming .plan li {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#triming p {
+  margin:0;
+}
+
+.insta img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.insta :hover{
+  opacity: 0.7;
+}
+
+.triming-box {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+/* フッター */
+
+footer {
+  background-color: rgb(189, 188, 188);
+  color: white;
+  height: 110px;
+  padding: initial;
+  margin:0 auto;
+  width: 1100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+}
+
+footer li :hover {
+  color: #e1eede;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+footer li {
+  margin: 10px;
+  width: 20%;
+}
+
+footer p {
+  margin-top: 30px;
+  font-weight: bolder;
+} 
