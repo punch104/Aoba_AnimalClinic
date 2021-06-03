@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<html lang="ja">
+<head>
+<title>あおば動物病院</title>
+<link rel="icon" href="./html img/favicon.ico">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!-- ヘッダー -->
+
+<section class ="body-wrapper">
+
+  <div class = "wrapper">
+      
+   <div id="page_top"><a href="#"></a></div>
+
+    <header>
+      <div class = "logo">
+        <a href="">
+          <img src="./html img/logo.png" alt="logo">
+          <h1>あおば動物病院</h1>
+        </a>
+      </div>
+  
+      <div class ="tel-box">
+          <div class ="tel">
+            <img src="./html img/tel.jpg" alt="tel" class="telimg">
+            <p class ="num">XXXX-XXX-XXXX</p>
+          </div>
+          <p class ="ad">〒XXX-XXXX XX県XX市XX区XX-XX-X</p>
+      </div>
+
+      <div class ="open">
+        <p>診療時間</p>
+        <p>平日９～１３時：１５～１９時</p>
+        <p>日・祝日９～１３時　木曜休診</p>
+      </div>
+    </header>
+  </div>
+  
+  <div class ="wrapper">
+    <div class ="category">
+      <div class ="types">
+        <a href ="#times">診療時間</a>    
+      </div>
+      <div class ="types">
+        <a href="#news">お知らせ</a>
+      </div>
+      <div class ="types">
+        <a href="#access">アクセス</a>
+      </div>
+      <div class ="types" id ="none">
+        <a href="#triming">トリミング</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- スライド -->
+  
+<section class ="wrapper" id ="slide-wrapper">
+  <!-- Swiper START -->
+<div class="swiper-container">
+  <!-- メイン表示部分 -->
+  <div class="swiper-wrapper">
+    <!-- 各スライド -->
+    <div class="swiper-slide"><img src="./html img/cat.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./html img/dog.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./html img/food.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./html img/medical.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./html img/nurse.jpg" alt=""></div>
+  </div>
+  <div class="swiper-button-prev" id ="swiper"></div>
+  <div class="swiper-button-next" id ="swiper"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<!-- Swiper END -->
+
+
+
+<!-- カレンダー -->
+    
+<div class ="top" id ="times"><h2>診療時間</h2></div>
+
+<section class ="wrapper" id ="time-wrapper">
+
+  <div class = "day-box">
+    <table class ="days" border="1">
+        <tr>
+          <th class ="month" colspan="7"><strong>2021年6月</strong><br><span>~Jun 2021~</span></td>
+        </tr>
+  
+        <tr>
+          <td colspan="7"><span class ="col-1">■</span>= 休診日<span class="col-2" colspan=>■</span>= 9~13:00まで</td>      
+        </tr>
+        
+      
+  
+        <tr>
+        <td class ="sun">日</td>
+        <td class ="weeks">月</td>
+        <td class ="weeks">火</td>
+        <td class ="weeks">水</td>
+        <td class ="weeks">木</td>
+        <td class ="weeks">金</td>
+        <td class ="sat">土</td>
+      </tr>
+  
+      <tr>
+        <td class ="suns"></td>
+        <td></td>
+        <td>1</td>
+        <td class ="Thurs">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+  
+      <tr>
+        <td class ="suns">6</td>
+        <td>7</td>
+        <td>8</td>
+        <td class ="Thurs">9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+  
+      <tr>
+        <td class ="suns">13</td>
+        <td>14</td>
+        <td>15</td>
+        <td class ="Thurs">16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+      </tr>
+  
+      <tr>
+        <td class ="suns">20</td>
+        <td>21</td>
+        <td>22</td>
+        <td class ="Thurs">23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+      </tr>
+  
+      <tr>
+        <td class ="suns">27</td>
+        <td>28</td>
+        <td>29</td>
+        <td class ="Thurs">30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  
+  
+  
+    </table>
+  </div>
+  
+  <div class = "tbl-box">
+    <table class="tbl" border="1">
+        <td class ="box">診療時間</td>
+        <td class ="week">月</td>
+        <td class ="week">火</td>
+        <td class ="week">水</td>
+        <td class ="week">木</td>
+        <td class ="week">金</td>
+        <td class ="sat">土</td>
+        <td class ="sun">日・祝日</td>
+      </tr>
+  
+      <tr>
+        <td class = "time">9:00~13:00</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>×</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>〇</td>
+      </tr>
+  
+      <tr>
+        <td class ="time">15:00~19:00</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>×</td>
+        <td>〇</td>
+        <td>〇</td>
+        <td>×</td>
+      </tr>
+    </table> 
+  </div>
+</section>    
+
+<div class ="etc">
+  <p class ="text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+</div>
+
+
+<!-- お知らせ -->
+
+<section class ="wrapper" id ="news">
+
+<h2>お知らせ</h2>
+
+  <div class ="news-box">
+    <ul>
+      <li class ="p-box">
+        <p>XXXX-XX-XX</p><p class ="texts">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </li>
+      <li class ="p-box">
+        <p>XXXX-XX-XX</p><p class ="texts">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </li>
+      <li class ="p-box">
+        <p>XXXX-XX-XX</p><p class ="texts">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </li>
+      <li class ="p-box">
+        <p>XXXX-XX-XX</p><p class ="texts">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- アクセス -->
+
+<section class="wrapper" id ="access">
+
+<h2>アクセス</h2>
+
+<div class ="access-box">
+  <div class ="texts">
+    <p>〒XXX-XXXX XX県XX市XX区XX-XX-X</p>
+    <div class="a-box">
+      <a class="underbar" href="https://www.navitime.co.jp/bustransit/"><span class ="bus">バス</span>でお越しの飼い主様</a>
+      <a class="underbar" href="https://www.jorudan.co.jp/norikae/"> <span class ="train">電車</span>でお越しの飼い主様</a>
+    </div>
+  </div>
+</div>
+  
+  <div class ="map-wrap">
+    <div class ="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.7037039603197!2d139.503111965255!3d35.53631908022834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f848f4bc292d%3A0x9bac1f7c2e1328cd!2z55Sw5aWI6aeF!5e0!3m2!1sja!2sjp!4v1621614434450!5m2!1sja!2sjp"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+
+</section>
+
+<!-- トリミング -->
+
+<section class ="wrapper" id ="triming">
+<h2>トリミング</h2>
+
+  <div class ="plan-container">
+
+    <div class ="plan">
+      <img src="./html img/trimng.png" alt="img">  
+    </div>
+  
+
+    <div class ="plan">
+    <h3>小型犬</h3>
+    <ul>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+    </ul>
+    </div>
+
+    <div class ="plan">
+    <h3>中型犬</h3>
+    <ul>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+    </ul>
+    </div>
+
+    <div class ="plan">
+    <h3>大型犬</h3>
+    <ul>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+      <li>犬種　￥XXXX</li>
+    </ul>
+    </div>
+
+  </div>
+
+  <div class ="triming-box">
+    <p class ="texts">その他の犬種についてはお電話でお問い合わせ下さい<br>instagramにてトリミング後の写真を公開しています</p>
+    <a href="https://www.instagram.com/?hl=ja" class ="insta"><img src="html img/insta.png" alt="instagram"></a>
+  </div>
+
+  </div>
+</section>
+
+
+<!-- フッター -->
+
+<footer>
+
+<ul>
+  <li><a href="#">当院について</a> </li>
+  <li><a href="#">ペットホテル</a> </li>
+  <li><a href="#">スタッフ紹介</a> </li>
+  <li><a href="#">採用情報</a> </li>
+</ul>
+
+<p>あおば動物病院</p>
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script src="./slide.js"></script>
+</body>
+
+
+</html>
