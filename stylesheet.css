@@ -95,6 +95,13 @@ header {
   width: auto;
 }
 
+
+.logo h1 {
+  font-size: 28px;
+  padding-left: 13px;
+}
+
+
 .logo a {
   width: 320px;
   height: 80px;
