@@ -96,7 +96,7 @@ header {
 }
 
 
-h1 {
+.logo h1 {
   font-size: 32px;
   padding-left: 10px;
 }
